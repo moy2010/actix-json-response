@@ -68,3 +68,15 @@ async fn index(name: web::Path<String>) -> Result<JsonResponse<MyObj>> {
     Ok(JsonResponse::from(my_obj).with_status_code(StatusCode::CREATED)) // The response will have status code 201 in this case
 }
 ```
+
+# License
+
+Distributed under the terms of [MIT license](./LICENSE-MIT) and [Apache license](./LICENSE-APACHE).
+
+
+[cargo-badge]: https://img.shields.io/crates/v/actix-json-responder.svg?style=flat-square
+[cargo]: https://crates.io/crates/actix-json-responder
+[license-badge]: https://img.shields.io/badge/license-MIT/Apache--2.0-lightgray.svg?style=flat-square
+[license]: #license
+[rust-version-badge]: https://img.shields.io/badge/rust-1.56+-blue.svg?style=flat-square
+[rust-version]: .travis.yml#L5
