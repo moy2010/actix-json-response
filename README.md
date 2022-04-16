@@ -74,8 +74,8 @@ async fn index(name: web::Path<String>) -> Result<JsonResponse<MyObj>> {
 Distributed under the terms of [MIT license](./LICENSE-MIT) and [Apache license](./LICENSE-APACHE).
 
 
-[cargo-badge]: https://img.shields.io/crates/v/actix-json-responder.svg?style=flat-square
-[cargo]: https://crates.io/crates/actix-json-responder
+[cargo-badge]: https://img.shields.io/crates/v/actix-json-response.svg?style=flat-square
+[cargo]: https://crates.io/crates/actix-json-response
 [license-badge]: https://img.shields.io/badge/license-MIT/Apache--2.0-lightgray.svg?style=flat-square
 [license]: #license
 [rust-version-badge]: https://img.shields.io/badge/rust-1.15+-blue.svg?style=flat-square
