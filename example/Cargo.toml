@@ -1,0 +1,12 @@
+[package]
+name = "actix-json-response-example"
+publish = false
+version = "0.1.0"
+authors = ["Moises Marquez <moy2010@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+serde_json = { version = "1.0" }
+serde = { version = "1", features = ["derive"] }
+actix-json-response = { path = ".." }

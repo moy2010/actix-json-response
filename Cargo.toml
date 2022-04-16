@@ -1,0 +1,15 @@
+[package]
+name = "actix-json-response"
+version = "0.1.0"
+edition = "2021"
+authors = ["Moises Marquez <moy2010@gmail.com>"]
+readme = "README.md"
+description = "A helper type for json responses with Actix-web"
+keywords = ["actix", "json", "actix-web"]
+license = "MIT/Apache-2.0"
+include = ["src/", "LICENSE-*", "README.md"]
+
+[dependencies]
+actix-web = { version = "4", default-features = false }
+serde_json = { version = "1.0" }
+serde = { version = "1" }
