@@ -19,7 +19,7 @@ Add `actix-json-response` to your dependencies:
 [dependencies]
 # ...
 actix-web = "4"
-actix-json-response = "0.1"
+actix-json-response = "0.1.3"
 ```
 
 ## Quickstart
@@ -57,7 +57,7 @@ async fn main() -> std::io::Result<()> {
 
 By default, the response will have status code `200`. If you need the response to have a different status code, you can use the `with_status_code` method that receives an Actix's `StatusCode`:
 
-```
+```rust
 use actix_web::http::StatusCode;
 
 #[get("/a/{name}")]
