@@ -1,13 +1,13 @@
 [package]
 name = "actix-json-response"
-version = "0.1.1"
-edition = "2021"
+version = "0.1.2"
+edition = "2018"
 authors = ["Moises Marquez <moy2010@gmail.com>"]
 readme = "README.md"
 repository = "https://github.com/moy2010/actix-json-response"
 description = "A helper type for json responses with Actix-web"
 keywords = ["actix", "json", "actix-web"]
-categories = ["Web programming"]
+categories = ["web-programming"]
 license = "MIT/Apache-2.0"
 include = ["src/", "LICENSE-*", "README.md"]
 

@@ -55,7 +55,7 @@ async fn main() -> std::io::Result<()> {
 }
 ```
 
-By default, the response will have status code 200. If you need the response to have a status code other than 200, you can use the `with_status_code`method that receives an Actix's `StatusCode`:
+By default, the response will have status code `200`. If you need the response to have a different status code, you can use the `with_status_code` method that receives an Actix's `StatusCode`:
 
 ```
 use actix_web::http::StatusCode;
@@ -78,5 +78,5 @@ Distributed under the terms of [MIT license](./LICENSE-MIT) and [Apache license]
 [cargo]: https://crates.io/crates/actix-json-responder
 [license-badge]: https://img.shields.io/badge/license-MIT/Apache--2.0-lightgray.svg?style=flat-square
 [license]: #license
-[rust-version-badge]: https://img.shields.io/badge/rust-1.56+-blue.svg?style=flat-square
+[rust-version-badge]: https://img.shields.io/badge/rust-1.15+-blue.svg?style=flat-square
 [rust-version]: .travis.yml#L5
